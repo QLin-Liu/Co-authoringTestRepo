@@ -1,1 +1,24 @@
-{}
+{
+  "58ec13c4-52e3-43a7-90ad-513fc3dc6799": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1676/1.0.1676.3617/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://imaginetlabs.sharepoint.com/sites/LinTestSite": {
+        "dataSources": {
+          "Company": {
+            "tableName": "412ba7c7-007f-4b5f-ab91-5281dd4a848d"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Company"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "58ec13c4-52e3-43a7-90ad-513fc3dc6799"
+  }
+}

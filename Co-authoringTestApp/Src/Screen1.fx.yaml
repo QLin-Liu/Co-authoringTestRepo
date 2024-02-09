@@ -1,23 +1,5 @@
 Screen1 As screen:
 
-    Slider1 As Slider:
-        BasePaletteColor: =
-        DisplayMode: =DisplayMode.Edit
-        Height: =35
-        Width: =200
-        X: =584
-        Y: =360
-        ZIndex: =1
-
-    ComboboxCanvas1 As Combobox.pcfdataset:
-        DisplayMode: =DisplayMode.Edit
-        Height: =32
-        Items: =["Item 1", "Item 2", "Item 3"]
-        Width: =320
-        X: =492
-        Y: =200
-        ZIndex: =2
-
     Header1 As Header:
         BasePaletteColor: =
         DisplayMode: =DisplayMode.Edit
@@ -42,4 +24,58 @@ Screen1 As screen:
         X: =1248
         Y: =716
         ZIndex: =4
+
+    Table1 As Table.pcfdataset:
+        DisplayMode: =DisplayMode.Edit
+        Height: =416
+        Items: =Company
+        onCellValueChange: =false
+        onFilter: =false
+        onNavigate: =false
+        onRowSelect: =false
+        onSave: =false
+        Width: =If(Self.X + 800 > Parent.Width, Parent.Width - Self.X, 800)
+        X: =240
+        Y: =192
+        ZIndex: =5
+
+        Title1 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Title"
+            FieldName: ="Title"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =1
+            ZIndex: =1
+
+        EndDate1 As pcfDataField.textualColumn:
+            FieldDisplayName: ="EndDate"
+            FieldName: ="EndDate"
+            FieldType: ="D"
+            FieldVariantName: ="textualColumn"
+            Order: =2
+            ZIndex: =2
+
+        DomainName1 As pcfDataField.textualColumn:
+            FieldDisplayName: ="DomainName"
+            FieldName: ="DomainName"
+            FieldType: ="s"
+            FieldVariantName: ="textualColumn"
+            Order: =3
+            ZIndex: =3
+
+        Status1 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Status"
+            FieldName: ="Status"
+            FieldType: ="E"
+            FieldVariantName: ="textualColumn"
+            Order: =4
+            ZIndex: =4
+
+        Attachments1 As pcfDataField.textualColumn:
+            FieldDisplayName: ="Attachments"
+            FieldName: ="{Attachments}"
+            FieldType: ="r*"
+            FieldVariantName: ="textualColumn"
+            Order: =5
+            ZIndex: =5
 

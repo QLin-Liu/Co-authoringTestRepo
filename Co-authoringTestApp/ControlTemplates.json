@@ -28,21 +28,6 @@
     "TemplateDisplayName": "Button",
     "Version": "0.0.27"
   },
-  "Combobox": {
-    "CustomGroupControlTemplateName": "",
-    "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_ComboboxCanvas",
-    "IsComponentTemplate": false,
-    "IsCustomGroupControlTemplate": false,
-    "IsPcfControl": true,
-    "IsPremiumPcfControl": false,
-    "IsWidgetTemplate": false,
-    "LastModifiedTimestamp": "0",
-    "Name": "PowerApps_CoreControls_ComboboxCanvas",
-    "OverridableProperties": {},
-    "TemplateDisplayName": "Combobox",
-    "Version": "0.0.24"
-  },
   "groupContainer": {
     "FirstParty": true,
     "Id": "http://microsoft.com/appmagic/groupContainer",
@@ -83,6 +68,20 @@
     "OverridableProperties": {},
     "Version": "1.6.0"
   },
+  "pcfDataField": {
+    "CustomGroupControlTemplateName": "",
+    "FirstParty": true,
+    "Id": "http://microsoft.com/appmagic/pcfDataField",
+    "IsComponentTemplate": false,
+    "IsCustomGroupControlTemplate": false,
+    "IsPcfControl": false,
+    "IsPremiumPcfControl": false,
+    "IsWidgetTemplate": true,
+    "LastModifiedTimestamp": "0",
+    "Name": "pcfDataField",
+    "OverridableProperties": {},
+    "Version": "1.4.0"
+  },
   "screen": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
@@ -97,19 +96,19 @@
     "OverridableProperties": {},
     "Version": "1.0"
   },
-  "Slider": {
+  "Table": {
     "CustomGroupControlTemplateName": "",
     "FirstParty": true,
-    "Id": "http://microsoft.com/appmagic/powercontrol/PowerApps_CoreControls_Slider",
+    "Id": "http://microsoft.com/appmagic/powercontrol/PowerAppsOneGrid",
     "IsComponentTemplate": false,
     "IsCustomGroupControlTemplate": false,
     "IsPcfControl": true,
     "IsPremiumPcfControl": false,
     "IsWidgetTemplate": false,
     "LastModifiedTimestamp": "0",
-    "Name": "PowerApps_CoreControls_Slider",
+    "Name": "PowerAppsOneGrid",
     "OverridableProperties": {},
-    "TemplateDisplayName": "Slider",
-    "Version": "1.0.17"
+    "TemplateDisplayName": "Table",
+    "Version": "1.0.150"
   }
 }
