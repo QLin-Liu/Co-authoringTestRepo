@@ -9,3 +9,12 @@ Screen1 As screen:
         Y: =360
         ZIndex: =1
 
+    ComboboxCanvas1 As Combobox.pcfdataset:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Items: =["Item 1", "Item 2", "Item 3"]
+        Width: =320
+        X: =492
+        Y: =200
+        ZIndex: =2
+
