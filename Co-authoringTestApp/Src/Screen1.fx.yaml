@@ -79,11 +79,3 @@ Screen1 As screen:
             Order: =5
             ZIndex: =5
 
-    LinkCanvas1 As Link:
-        DisplayMode: =DisplayMode.Edit
-        Height: =32
-        Width: =320
-        X: =80
-        Y: =80
-        ZIndex: =8
-
