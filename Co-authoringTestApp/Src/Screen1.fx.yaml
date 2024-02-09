@@ -18,3 +18,24 @@ Screen1 As screen:
         Y: =200
         ZIndex: =2
 
+    Header1 As Header:
+        DisplayMode: =DisplayMode.Edit
+        Height: =75
+        OnSelectLogo: =false
+        Title: =App.ActiveScreen.Name
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =Parent.Width
+        X: =0
+        Y: =0
+        ZIndex: =3
+
+    ButtonCanvas1 As Button:
+        DisplayMode: =DisplayMode.Edit
+        Height: =32
+        Width: =96
+        X: =1248
+        Y: =716
+        ZIndex: =4
+
